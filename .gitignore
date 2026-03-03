@@ -1,2 +1,16 @@
+# Entornos virtuales
 .env
+venv/
+__pycache__/
+*.pyc
+
+# Carpeta temporal del datalake
+
 datalake/temp/
+
+# Archivos generados
+*.csv
+*.log
+
+# Configuración del sistema
+.DS_Store
