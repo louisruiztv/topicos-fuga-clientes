@@ -1,0 +1,16 @@
+=====Obtener la IP del host Windows desde WSL para conexión a MongoDB =====
+ ip route | grep default
+
+ ====Ejecutar script de validación de datos en MongoDB
+ python scripts/consulta_mongodb.py
+
+
+ ===para crear el entorno virtual
+ python3 -m venv venv
+
+ ==para activar el entorno virtual
+ source venv/bin/activate
+
+
+ ===Para salir del entorno virtual=====
+  deactivate
